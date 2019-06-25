@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dongtu.sdk">
+
+    <application android:allowBackup="true">
+        <activity
+            android:name="com.dongtu.sdk.activity.ImageDetail"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:name="com.dongtu.sdk.activity.DTWebViewActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+    </application>
+</manifest>
